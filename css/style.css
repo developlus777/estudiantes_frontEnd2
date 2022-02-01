@@ -1,9 +1,66 @@
 * {
     margin:0;
     padding: 0;
+    position: relative;
+    
+    
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #222;
     font-size: 14px;
+    align-items: center;
+    
+}
+p{
+    font-size: 16px;
+    color: #54585a;
+}
+h3{
+    font-size:  20px;
+}
+.quienesSomos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.titleQS{
+    margin: 30px;
+    color: #099d8d;
+}
+
+.containerQS{
+    display: flex;
+    flex-direction: column;
+    width: 90%;    
+}
+
+.integrante{
+
+    margin-bottom: 45px;
+    border-radius: 10px;
+
+}
+
+.imgInte{
+    width: 180px;
+    height: 180px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: grey;
+}
+.redesSociales{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.redesSociales a{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #099d8d;
+}
+
+.info h3{
+    margin-top: 15px;
+    font-size: 24px;
 }
